@@ -1,0 +1,15 @@
+#file: noinspection undefined
+spring:
+  application:
+    name: greeting-service
+greeting-service:
+  greeting: "Ola"
+  default-value: "Mundo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
