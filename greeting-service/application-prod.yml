@@ -3,7 +3,7 @@ spring:
   application:
     name: greeting-service
 greeting-service:
-  greeting: Ciao
+  greeting: oie
   default-value: Mondo
 management:
   endpoints:
